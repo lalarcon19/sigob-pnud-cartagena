@@ -1,0 +1,10 @@
+/*-----------------------------------------------------------------------------------*/
+/* GOOGLE FONT (Poppins) */
+/*-----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'proxima nova';
+  src: url('ProximaNova-Regular.woff2') format('woff2'),
+       url('ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
