@@ -1,5 +1,4 @@
 
-
 @font-face {
   font-family: 'Proxima Nova';
   src: url('ProximaNova-Regular.woff2') format('woff2'),
@@ -359,6 +358,10 @@ img {
 
 /*DOCUMENTAL */
 
+.container-center .image-documental{
+  width:400px;
+  margin-left: 18%;
+}
 .container-center .boton-docum{
   margin-bottom: 10%;
 }
