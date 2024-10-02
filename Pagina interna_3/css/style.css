@@ -111,7 +111,6 @@ img {
   font-weight: 300;
   margin-top: 0;
   position: relative;
-  margin-bottom: 3.75rem;
 }
 
 /*VALOREMOS LOS PROCESOS*/
@@ -1585,12 +1584,106 @@ Static Banner
 # Device
 
 -----------------------------------------------------------------------------------*/
-/* Amazing Features wrapper */
+/* Raquel figueroa */
 .site-amazing-features {
-  /*background: url("../images/features-bg.png") no-repeat center 3.4375rem;*/
-  background-size: cover;
-  padding-bottom: 0;
-  background-color: #f2f4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../images/fondoPrincipal.png');
+  background-size: 100% 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FFFFFF;
+  line-height:1,5;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'proxima nova' sans-serif;  
+  max-height:100%;
+} 
+
+.laura-rojas{
+  height:600px;
+}
+
+.laura-rojas .audio-player{
+  margin-top: 0;
+}
+
+.audio-player {
+  display: flex;
+  align-items: center;
+  background-color: #00689D; /* Fondo oscuro */
+  border-radius: 30px;
+  margin-top: 20%;
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.play, .pause {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #34495e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play::before, .pause::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.play::before {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDB2MzBsMzAtMTV6Ii8+PC9zdmc+');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.progress::before {
+    width: 5px;
+    height: 5px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0waDI0djMwaC02di0zaC0xOHYzSC00di0zeiIvPjwvc3ZnPg==');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.progress-container {
+  flex-grow: 1;
+  height: 8px;
+  background-color: #7f8c8d;
+  border-radius: 5px;
+  margin: 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.progress {
+  height: 100%;
+  background-color: #ecf0f1;
+  width: 0;
+  border-radius: 5px;
+}
+
+.time {
+  color: #ecf0f1;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .audio-player {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1728,21 +1821,45 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   margin-top: 1rem;
 }
 
+/*CIUDAD INTELIGENTE*/
+.ciudad-inteligente{
+  background:#FFFFFF;
+}
 
+.ciudad-inteligente .two-colom-content p{
+  margin-left: 10%;
+}
 
-/*-----------------------------------------------------------------------------------
+.ciudad-inteligente .half-colom-right-section{
+  margin-top:20%;
+}
 
-[About App] (Section)
+/*MAS INFORMACION*/
+.mas-informacion{
+  background-color: #f2f4f5;
+}
 
-# About App (wrapper)
-# Typography (h1, h3, h4, p)
-# Device image
-# Section (image, icons)
-# Carousel Slider
-# carousel navigation
-# carousel pagination
+.site-more-features .mas-informacion p{
+  width: 100%;
+  margin: 0;
+}
 
------------------------------------------------------------------------------------*/
+.site-more-features .descargar a{
+  text-decoration: none;
+  margin-right:30%;
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #232D3F;
+  color: #ffff;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-size: 23px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
 
 .about-half-colom-section {
 	float:left;
@@ -1824,6 +1941,10 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 
 /*DEL PAPEL A LO DIGITAL*/
 
+.papel-digital{
+  background: #f2f4f5;
+}
+
 .two-colom-content {
 	float:left;
 	width:100%;
@@ -1846,10 +1967,6 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 	color:#3453bf;
 	font-weight:700px;
 	letter-spacing:1px;
-}
-
-.half-colom-padding {
-	padding:120px 0 0 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -2610,6 +2727,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   width: 100%;
   clear: both;
   padding:0;
+  padding-bottom: 10%;
 }
 
 @media screen and (max-width: 991px) {
@@ -2631,6 +2749,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
     top: 0;
     position: relative;
 	text-align:center;
+  margin-top: 10%;;
   }
 }
 
@@ -3650,17 +3769,6 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
 
 /* ------------------------ plan hover animation */
 
-
-/*-----------------------------------------------------------------------------------
-
-[Statistic] (Section)
-
-# Statistic Section (wrapper)
-# .site-number (class)
-# Icons
-# Typography (h5, p)
-
------------------------------------------------------------------------------------*/
 /* Statistic section wrapper */
 .site-statistic {
   margin: 0;
@@ -4391,25 +4499,14 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
   padding-right: 0;
 }
 
-/*-----------------------------------------------------------------------------------
+/*Footer?
 
-[Footer] (Section)
-
-# Footer Section (wrapper)
-# Logo
-# Social Icons
-# Copyright
-
------------------------------------------------------------------------------------*/
 /* Footer Section wrapper */
 .site-footer {
-  margin-top:-80px;;
-  padding: 170px 0 100px 0;
+  padding: 60px 0;
   display: block;
   width: 100%;
-  clear: both;
-  text-align: center;
-  background: #313a47 ;
+  background: #232D3F ;
   color: white;
 }
 
@@ -4417,42 +4514,13 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
 .site-footer .site-logo {
   /* LOGO */
   width: 100%;
-  clear: both;
-  height: auto;
-  display: block;
-  margin: 1.875rem 0;
+    clear: both;
+    display: flex;
+    margin: 1.875rem 0;
 }
 
 .site-footer .site-logo a {
-  display: inline-block;
-}
-
-.site-social-icons {
-  /* SOCIAL ICONS */
-  width: 100%;
-  clear: both;
-  padding:50px 0 0 0;
-}
-
-.site-social-icons a {
-  width: 3rem;
-  height: 3rem;
-  background:#505762;
-  border-radius: 12.5rem;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  margin: 0.1875rem;
-  transition: 300ms linear;
-  transition-property: background, color, border-color;
-}
-
-.site-social-icons a:hover {
-  color: white;
-  transition:all ease .5s;
-  
-  background: #3453bf;
-  
+  display:flex;
 }
 
 .site-social-icons i.fa, .site-social-icons span {
@@ -4466,7 +4534,6 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
   right: 0;
   bottom: 0;
   display: block;
-  height: 100%;
   width: 100%;
 
 }
@@ -4485,7 +4552,7 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
 
 @media screen and (max-width: 991px) {
   .site-footer {
-    background: #1F3542;
+    background: #232D3F;
 	padding:60px 0;
 	margin-top:0;
   }
