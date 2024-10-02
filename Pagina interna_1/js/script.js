@@ -61,3 +61,9 @@ $(document).ready(function(){
       });
   });
   
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        iframe.src = iframe.src; // Detener el video al cerrar el modal
+    }
+}
