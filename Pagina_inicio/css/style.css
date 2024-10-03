@@ -234,7 +234,7 @@ align-items: center;
     margin-left:0;
     margin-right: -1.25rem;
     width: 100% !important;
-	background:#836aeb;
+	background:#00689D;
   }
   .site-holder .sticky-wrapper.is-sticky > .sticky-header .site-logo, .site-holder .sticky-wrapper.is-sticky > .sticky-header .site-nav {
     transition: 300ms linear;
@@ -284,7 +284,7 @@ align-items: center;
   margin: 0;
   padding: 0;
   display: block;
-  background: #122748;
+  background:#00689D;
 }
 
 @media screen and (min-width: 992px) {
@@ -894,16 +894,16 @@ align-items: center;
 }
 .static-banner {
 	background-color: #00689D;
-
-display: block;
+  display: block;
   clear: both;
   min-height: 100px;
   position: relative;
-  height: 750px;/*propiedades para dejar responsiva la pagina*/
+  height: 1000px;/*propiedades para dejar responsiva la pagina*/
   max-width: 100%;
   margin: 0 auto;
   z-index: 1;
 }
+
 
 .static-content {
 	position:absolute;
@@ -950,12 +950,12 @@ display: block;
 	top:0;
 }
 
-/* Static banner gredient color animation START*/
+/* PROCESO DE SISTEMATIZACION*/
 
 .static-banner {
 	width: 100%;
 	background:#00689D;
-	background-size: 400% 400%;
+	background-size: 00% 600%;
 }
 
 @media screen and (max-width: 1199px) {
@@ -964,16 +964,11 @@ display: block;
 	}
 	
  .static-banner-image {
-	 left:0;
-
- }
- 
- .banner-caption {
-	 padding:90px 0 0 0;
+	 left:60;
  }
  
  .banner-caption h1 {
-	 font-size:50px;
+	 font-size:60px;
  }
  
  .banner-caption h2{
@@ -986,28 +981,23 @@ display: block;
 	 font-weight:normal;
 	 padding-top:0px;
  }
- 
  .static-content {
 	top:17%;
 }
- 
-
- 
- 
 }
 
-@media screen and (max-width: 991px) {
-	
+@media screen and (max-width: 991px) {	
 .static-banner {
 	top:10%;
 }
 	
 .banner-caption {
-	padding:0;
+	top: 20%;
+  height: auto;
 }
 	
 .banner-caption h1 {
-	font-size:20px;
+	font-size:40px;
 	text-align:center;
 }
  
@@ -1018,6 +1008,8 @@ display: block;
 	padding:0 px 0 0 0;
 	text-align:center;
 	margin-bottom:0;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -1026,7 +1018,7 @@ display: block;
 	text-align:center;
 	background-size:300px;
 	background-position:center top;
-	margin:30px 30px 0 0;
+	margin:30px;
  }
  
  .static-banner .banner-caption {
@@ -1046,7 +1038,7 @@ display: block;
 }
 	
 	.banner-caption h1 {
-	font-size:70px;
+	font-size:50px;
 	text-align:center;
 }
 
@@ -1488,22 +1480,26 @@ footer {
   align-items: center;
   background-color: #232D3F; /* Navy blue color */
   height: 300px;
-  padding: 0 20px;
+  padding: 20px;
   position: relative;
   color: white;
 }
 
 .copyright {
-  position: absolute;
   bottom: 0;
   left: 20px; /* Yellow copyright area */
   padding: 10px;
-  color: #ffffff;
+  color: #59687C;
+  position: absolute;
+  margin-left:35%;
 }
 
-.site-footer .row{
+.site-footer .container{
   width:20%;
+  margin-left: 70%;
 }
+
+
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
