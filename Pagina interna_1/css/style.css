@@ -150,7 +150,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .section-white h1, .section-blue h1, .section-grey h1, .two-colom-section h1 {
-    font-size: 2rem;
+    font-size:40px;
 	line-height:1.2;
   }
 }
@@ -1583,7 +1583,7 @@ display: block;
 .static-banner-image {
 background:url(../images/header-slide-1.gif) no-repeat ;
 	width:470px;
-	height:633px;
+	height:550px;
 	text-align:center;
 	position:relative;
 	right:0;
@@ -1599,7 +1599,6 @@ background:url(../images/header-slide-1.gif) no-repeat ;
 
  .static-banner-image {
 	 left:0;
-
  }
 
  .banner-caption {
@@ -1628,17 +1627,18 @@ background:url(../images/header-slide-1.gif) no-repeat ;
 }
 
 @media screen and (max-width: 991px) {
-
 .static-banner {
 	top:10%;
 }
 
 .banner-caption {
 	padding:0;
+  margin-top:40%;
 }
 
 .banner-caption h1 {
-	font: size 50px;px;
+  margin: 0;
+	font-size:50px;
 	text-align:center;
 }
 
@@ -1659,6 +1659,7 @@ background:url(../images/header-slide-1.gif) no-repeat ;
 
  .static-banner-image {
 	width:100%;
+  height:450px;
 	text-align:center;
 	background-size:300px;
 	background-position:center top;
@@ -1671,21 +1672,16 @@ background:url(../images/header-slide-1.gif) no-repeat ;
 
  .static-content {
 	top:10%;
+  margin-left: 20%;
 }
-
-
-
-
 }
 
 @media screen and (max-width: 767px) {
-
 	.static-banner {
 		top:15%;
 }
-
 	.banner-caption h1 {
-	font-size:70px;
+	font-size:50px;
 	text-align:center;
 }
 
@@ -1693,8 +1689,9 @@ background:url(../images/header-slide-1.gif) no-repeat ;
 	margin:10px 0;
 }
 
-
-
+.static-banner-image{
+  height:450px;
+}
 }
 
 
@@ -2067,21 +2064,19 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 
 @media screen and (max-width: 1199px) {
   .about-half-colom-section {
-
+    margin-left: 20%;
   }
 
   .about-half-colom-section-image {
 	  right:0;
 	  position:inherit;
-	  width:100%;
-	  margin-top:100px;
+	  width:80%;
+	  margin:100px 0 100px 70px;
   }
 
   .site-about-app.section-grey {
 	  padding-bottom:0;
   }
-
-
 }
 
 @media screen and (max-width: 991px) {
@@ -2089,11 +2084,6 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 		height:100px;
 	}
 }
-
-
-
-
-
 
 /*-----------------------------------------------------------------------------------
 
@@ -2184,8 +2174,6 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 }
 
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
  .two-colom-section {
 	 padding:10px 0;
@@ -2197,28 +2185,81 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 
 .two-colom-content p {
 	padding-bottom:50px;
-
 }
+
+
+
 
 }
 
 @media screen and (max-width: 767px) {
-
  .two-colom-section {
-	 padding-top: 80%;
+	 padding-top: 0;
  }
 
  .half-colom-padding {
 	 padding:0;
  }
-
+ .half-colom-right-section{
+  margin-top: 10%;
+  width:50%;
+ }
+ .container-center .icon{
+  margin-top:10%;
+  width: 50%;
+ }
+ half-colom-ri
+ .container-center .image {
+  margin-left: 0;
+ }
 }
 
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 950px) {
+  .two-colom-section {
+    padding:80px 0 0 0;
+  }
 
+  .left-heading-icon{
+    width:70%;
+    margin-left:20%;
+  }
+
+  .two-colom-content p{
+    margin-left: 20%;
+  }
+
+  .container-center{
+    margin-left:20%;
+  }
+
+  .container-center .image{
+    margin-left: 0;
+  }
+ 
+  .half-colom-right-section {
+    margin-left: 35%;
+    width:50%;
+  }
+
+  .container-center .icon{
+    width: 60%;
+  }
+
+  .note-container h3{
+    width:75%;
+  }
+
+  .note-container p {
+    margin-left:10%;
+  }
+ 
+ }
+
+
+@media screen and (max-width: 639px) {
  .two-colom-section {
-	 padding:80px 0 0 0;
+	 padding:0;
  }
 
  .half-colom-padding {
@@ -4654,25 +4695,47 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
 
 /*FOOTER*/
 footer {
-  background: #232D3F; /* Color de fondo oscuro similar */
-  padding: 20px 0;
-  color: #f8f8f8; /* Color de texto blanco/gris claro */
-}
-
-.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Ajusta al ancho máximo del contenedor */
-  margin: 0 auto; /* Centrar el contenedor */
-  padding: 0 20px;
+  background-color: #232D3F; /* Navy blue color */
+  height: 300px;
+  padding: 20px;
+  position: relative;
+  color: white;
 }
 
-.footer-left p {
-  font-size: 15px;
-  color:#59687C;
-  display: flex;/* Color del texto de copyright */
+.copyright {
+  bottom: 0;
+  left: 20px; /* Yellow copyright area */
+  padding: 10px;
+  color: #59687C;
+  position: absolute;
+  margin-left:35%;
 }
+
+.site-footer .container{
+  width:20%;
+  margin-left: 70%;
+}
+
+
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-right {
+    margin-top: 10px;
+  }
+  .copyright{
+    margin-left:20%;
+  }
+}
+
 
 
 

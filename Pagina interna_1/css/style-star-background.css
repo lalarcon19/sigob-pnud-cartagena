@@ -11,6 +11,52 @@ html {
 	overflow:hidden;
 }
 
+.static-banner {
+  top: 10%;
+}
+
+@media screen and (max-width: 1199px) {
+.static-banner {
+  top: 20%;
+}
+}
+.star-bg{
+width: 100%;
+background-size: 00% 600%;
+}
+.static-banner {
+display: block;
+clear: both;
+min-height: 100px;
+position: relative;
+height: 800px;
+max-width: 100%;
+margin: 0 auto;
+z-index: 1;
+}
+
+@media screen and (max-width:767px) {
+  .static-banner {
+    top: 20%;
+  }
+  }
+  .star-bg{
+  width: 100%;
+  background-size: 00% 600%;
+  }
+  .static-banner {
+  display: block;
+  clear: both;
+  min-height: 100px;
+  position: relative;
+  height: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  }
+
+
+
 #stars {
   width: 1px;
   height: 1px;
