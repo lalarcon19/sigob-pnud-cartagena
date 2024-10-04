@@ -2174,6 +2174,10 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
     margin:10px;
   }
 
+  .marcelo {
+    margin-left:20%
+  }
+
   .about-half-colom-section img{
     margin-top:0;
   }
@@ -2181,6 +2185,10 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   .site-about-app p {
     margin-left: 10%;
     margin-top: 10%;
+  }
+
+  #scrollUp{
+    margin-right:10px;
   }
 }
 
@@ -4624,111 +4632,48 @@ box-shadow: 0px 0px 22px -7px rgba(24,30,110,0.26);
 # Copyright
 
 -----------------------------------------------------------------------------------*/
-/* Footer Section wrapper */
 .site-footer {
-  margin-top:-80px;;
-  padding: 170px 0 100px 0;
-  display: block;
-  width: 100%;
-  clear: both;
-  text-align: center;
-  background: #313a47 ;
-  color: white;
-}
-
-
-.site-footer .site-logo {
-  /* LOGO */
-  width: 100%;
-  clear: both;
-  height: auto;
-  display: block;
-  margin: 1.875rem 0;
-}
-
-.site-footer .site-logo a {
-  display: inline-block;
-}
-
-.site-social-icons {
-  /* SOCIAL ICONS */
-  width: 100%;
-  clear: both;
-  padding:50px 0 0 0;
-}
-
-.site-social-icons a {
-  width: 3rem;
-  height: 3rem;
-  background:#505762;
-  border-radius: 12.5rem;
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232D3F; /* Navy blue color */
+  height: 300px;
+  padding: 20px;
   position: relative;
-  text-align: center;
-  margin: 0.1875rem;
-  transition: 300ms linear;
-  transition-property: background, color, border-color;
+  color: white;
 }
 
-.site-social-icons a:hover {
-  color: white;
-  transition:all ease .5s;
-  
-  background: rgba(12,206,188,1);
-/* Old Browsers */background: -moz-linear-gradient(-45deg, rgba(12,206,188,1) 0%, rgba(49,93,183,1) 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(12,206,188,1)), color-stop(100%, rgba(49,93,183,1)));
-/* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, rgba(12,206,188,1) 0%, rgba(49,93,183,1) 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, rgba(12,206,188,1) 0%, rgba(49,93,183,1) 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, rgba(12,206,188,1) 0%, rgba(49,93,183,1) 100%);
- /* IE 10+ */background: linear-gradient(135deg, rgba(12,206,188,1) 0%, rgba(49,93,183,1) 100%);
-/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ccebc', endColorstr='#315db7', GradientType=1 );
-/* IE6-9 fallback on horizontal gradient */
-}
-
-.site-social-icons i.fa, .site-social-icons span {
-  color: white;
-  font-size: 0.938rem;
-  font-weight: 400;
-  line-height: 3rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+.copyright {
   bottom: 0;
-  display: block;
-  height: 100%;
-  width: 100%;
-
+  left: 20px; /* Yellow copyright area */
+  padding: 10px;
+  color: #59687C;
+  position: absolute;
+  margin-left:35%;
 }
 
-.site-copyright {
-  /* COPYRIGHT */
-  color: #708198;
-  font-family: inherit;
-  font-size:13px;
-  font-weight: 400;
-  line-height:1.5;
-  width: 100%;
-  clear: both;
-  margin-top: 1.25rem;
+.site-footer .container{
+  width:20%;
+  margin-left: 70%;
 }
 
-@media screen and (max-width: 991px) {
-  .site-footer {
-    background: #1F3542;
-	padding:60px 0;
-	margin-top:0;
+
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
   }
   
-  .site-download-icons {
-		margin:30px 0;
-		padding:0;
-	}
-	
+  .footer-right {
+    margin-top: 10px;
+  }
+  .copyright{
+    margin-left:20%;
+  }
 }
 
-
-  
  
   
 
