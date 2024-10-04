@@ -1467,7 +1467,7 @@ Static Banner
 
  .static-banner-image {
 	 background:url(../images/header-slide-1.png) no-repeat center bottom;
-   margin-top: 50%;
+   margin-top: 30%;
    display: flex;
    text-align: center;
    position: relative;
@@ -1501,19 +1501,20 @@ Static Banner
 @media screen and (max-width: 576px) {
 
 .banner-caption {
-	padding:30% 0 0 0;
+	padding:0;
 }
 	
  .static-banner-image {
 	background-size:400px;
-	bottom:113px;
  }
  
  .banner-caption h1 {
-	font-size:30px;
+	font-size:40px;
 	line-height:1.5;
 }
-
+.static-content{
+  flex-direction: column;
+}
  
 }
 
