@@ -158,16 +158,16 @@ img {
 }
 
 .section-blue h1 {
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
- text-align: center;
- color: #00689D;
- font-size: 25px;
- margin-left: 23%;
- width:60%;
- font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #00689D;
+  font-size: 30px;
+  margin-left: 23%;
+  width: 60%;
+  font-weight: 500;
 }
 
 
@@ -1126,9 +1126,23 @@ align-items: center;
   }
   .about-half-colom-section-image{
     width: 400px;
-    right:-150px;
+    right:-100px;
   }
 
+  @media screen and (max-width: 750px) {
+    .about-half-colom-section {
+      margin: 20px 100px 0 100px;
+    }
+    .about-half-colom-section-image img{
+      width: 300px;
+      right:-120px;
+      margin-top: 100px;
+    }
+
+    .dots{
+      margin-left: 20%;
+    }
+}
 }
 
 .site-more-features .featured-img {
