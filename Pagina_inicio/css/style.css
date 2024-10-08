@@ -942,12 +942,13 @@ img {
   width:45vh;
 }
 .static-banner-image {
-	background:url(../images/header-slide-1.png) no-repeat right top;
-	width: 550px;
-	height: 550px;
+	background:url(../gif/Comp-1.gif) no-repeat right top;
+	width: 500px;
+	height: 500px;
 	text-align:right;
+  
 	position:relative;
-	right:150px;
+	right:150%;
 	left:0px;
 	top:0;
 }
