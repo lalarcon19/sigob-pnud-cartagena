@@ -11,34 +11,66 @@ html {
   width: 100%;
 }
 
-iframe{
-   width:500px;
-   height:300px;
-   border-radius: 20px;
-}
 body {
   font-size: 100%;
   margin: 0;
-  padding: 0;
+  padding:0;
   display: block;
   width: 100%;
   height: 100%;
   clear: both;
-  font-family: 'proxima nova', sans-serif;
+  font-family:'proxima nova', sans-serif;
 }
 
 * {
   outline: none !important;
 }
 
-/* Change the a tag color */
 a {
   text-decoration: none;
   color: #2b8dd9;
   transition: 300ms linear;
   transition-property: color;
   display: inline-block;
-  font-family: 'proxima nova',sans-serif;
+}
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  color: #9b28a8;
+}
+
+/* Responsive image */
+img {
+  max-width:80%;
+  display: inline-block;
+}
+
+/* Clearfix */
+.clearfix {
+  clear: both;
+}
+
+/* Make bootstrap container max-width 100% */
+.container {
+  max-width: 100%;
+}
+
+/*--- for remove space / gutter betwin 2 colom of boot strap */
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+iframe{
+   width:500px;
+   height:300px;
+   border-radius: 20px;
 }
 
 a:hover, a:active, a:focus, a:visited {

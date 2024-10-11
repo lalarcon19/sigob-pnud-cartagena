@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Proxima Nova';
   src: url('ProximaNova-Regular.woff2') format('woff2'),
@@ -6,9 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html {
-  font-size: 16px;
-  /* Global Font Size */
+  font-size: 16px; /* Global Font Size */
   width: 100%;
 }
 
@@ -20,7 +19,7 @@ body {
   width: 100%;
   height: 100%;
   clear: both;
-  font-family:'proxima nova', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 * {
@@ -42,7 +41,7 @@ a:hover, a:active, a:focus, a:visited {
 
 /* Responsive image */
 img {
-  max-width:80%;
+  max-width: 100%;
   display: inline-block;
 }
 
@@ -56,7 +55,7 @@ img {
   max-width: 100%;
 }
 
-/*--- for remove space / gutter betwin 2 colom of boot strap */
+/* Remove space/gutter between 2 columns of bootstrap */
 .row.no-gutter {
   margin-left: 0;
   margin-right: 0;
@@ -67,9 +66,6 @@ img {
   padding-right: 0;
   padding-left: 0;
 }
-
-
-/*---  */
 
 /* Template wrapper */
 .wrapper {
@@ -82,8 +78,8 @@ img {
   overflow-y: auto;
 }
 
-/* Template white section and blue section */
-.section-white, .section-blue   {
+/* Template sections */
+.section-white, .section-blue, .section-grey {
   margin: 0;
   padding: 80px 0;
   display: block;
@@ -92,22 +88,13 @@ img {
   background: white;
   text-align: center;
   overflow: hidden;
-  /* Section h1 heading */
 }
 
-.section-grey  {
-  margin: 0;
-  padding: 80px 0;
-  display: block;
-  width: 100%;
-  clear: both;
+.section-grey {
   background: #F2F4F5;
-  text-align: center;
-  overflow: hidden;
-  /* Section h1 heading */
 }
 
-.section-white h1, .section-blue h1, .section-grey h1, .two-colom-section h1 {
+.section-white h1, .section-blue h1, .section-grey h1 {
   color: #9b28a8;
   font-size: 2.75rem;
   line-height: 4.125rem;
@@ -118,36 +105,30 @@ img {
 }
 
 .main-heading-text {
-	float:left;
-	width:100%;
-	padding:0 0 20px 0;
+  float: left;
+  width: 100%;
+  padding: 0 0 20px 0;
 }
 
-.main-heading-text p{
-	float:left;
-	width:100%;
-	text-align:center;
-	font-size:16px;
-	color:#708198;
-	line-height:1.5;
-	white-space:pre-line;
+.main-heading-text p {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #708198;
+  line-height: 1.5;
+  white-space: pre-line;
 }
 
-.site-testimonial .main-heading-text p{
-	float:left;
-	width:100%;
-	text-align:center;
-	font-size:16px;
-	color:#708198;
-	line-height:1.5;
-	white-space:pre-line;
-	padding:0 0 30px 0;
+.site-testimonial .main-heading-text p {
+  padding: 0 0 30px 0;
 }
 
+/* Adjustments for mobile devices */
 @media screen and (max-width: 767px) {
-  .section-white h1, .section-blue h1, .section-grey h1, .two-colom-section h1 {
-    font-size:40px;
-	line-height:1.2;
+  .section-white h1, .section-blue h1, .section-grey h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
   }
 }
 
@@ -156,7 +137,6 @@ img {
 }
 
 .section-white h1:after, .section-blue h1:after, .section-grey h1:after {
-  /* H1 heading icon add */
   content: "";
   position: relative;
   background: url("../images/heading-before.png") no-repeat center;
@@ -171,7 +151,6 @@ img {
 }
 
 .left-heading h1:after {
-  /* H1 heading icon add */
   content: "";
   position: relative;
   background: url("../images/heading-before.png") no-repeat left;
@@ -248,33 +227,34 @@ img {
     padding-right: 5rem;
   }
 }
-.site-anamaria-gonzalez{
-      margin-top:10%;
-      position: relative;
-      background-image: url('../images/fondoPrincipal.png');
-      background-size: 100% 350px;
-      background-position: top;
-      background-repeat: no-repeat;
-      width: 100%;
-      color: #59687C;
-      font-size: 15px;
+
+.site-anamaria-gonzalez {
+  margin-top: 10%;
+  position: relative;
+  background-image: url('../images/fondoPrincipal.png');
+  background-size: 100% 350px;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #59687C;
+  font-size: 15px;
 }
 
-.site-anamaria-gonzalez .coment{
+.site-anamaria-gonzalez .coment {
   width: 70%;
   margin-top: 5%;
 }
 
-.note-container{
+.note-container {
   height: auto;
 }
 
-.site-anamaria-gonzalez .note-container p{
+.site-anamaria-gonzalez .note-container p {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-top:35%;
-  margin-bottom:10%;
+  margin-top: 35%;
+  margin-bottom: 10%;
 }
 
 /*AUDIO*/
@@ -285,7 +265,7 @@ img {
   border-radius: 30px;
   padding: 10px;
   width: 300px;
-  margin-top:30%;
+  margin-top: 30%;
   margin-left: 20%;
 }
 
@@ -344,10 +324,10 @@ img {
 @media screen and (max-width: 970px) {
   .site-anamaria-gonzalez {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
   }
 
-  .site-anamaria-gonzalez{
+  .site-anamaria-gonzalez {
     position: relative;
     background-image: url('../images/fondoPrincipal.png');
     background-size: 100% 300px;
@@ -356,45 +336,45 @@ img {
     color: #59687C;
     font-size: 15px;
     padding-top: 50px;
- }
+  }
 
- .foto {
-  position: relative;
-  display: flex;
-  justify-content: center; /* Centra la imagen horizontalmente */
-  align-items: center; /* Alinea la imagen verticalmente */
-}
+  .foto {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Alinea la imagen verticalmente */
+  }
 
-.foto img {
-  border-radius: 8px; /* Opcional: redondea las esquinas de la foto */
-  max-width: 100%;
-  height: auto;
-}
+  .foto img {
+    border-radius: 8px; /* Opcional: redondea las esquinas de la foto */
+    max-width: 100%;
+    height: auto;
+  }
 
-  .audio-player{
+  .audio-player {
     margin: 0;
   }
 
-  .site-anamaria-gonzalez .foto{
+  .site-anamaria-gonzalez .foto {
     margin: 20px;
   }
 
-  .about-half-colom-section-image .coment{
-   margin-left:10%;
+  .about-half-colom-section-image .coment {
+    margin-left: 10%;
   }
-  .about-half-colom-section-image .note-container p{
+
+  .about-half-colom-section-image .note-container p {
     margin-top: 20px;
   }
-  
 }
 
 @media screen and (max-width: 767px) {
   .site-anamaria-gonzalez {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
   }
 
-  .site-anamaria-gonzalez{
+  .site-anamaria-gonzalez {
     position: relative;
     background-image: url('../images/fondoPrincipal.png');
     background-size: 100% 300px;
@@ -403,41 +383,42 @@ img {
     color: #59687C;
     font-size: 15px;
     padding-top: 50px;
- }
+  }
 
- .site-anamaria-gonzalez .foto {
-  position: relative;
-  display: flex;
-  justify-content: center; /* Centra la imagen horizontalmente */
-  align-items: center; /* Alinea la imagen verticalmente */
-}
+  .site-anamaria-gonzalez .foto {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Alinea la imagen verticalmente */
+  }
 
-.site-anamaria-gonzalez .foto img {
-  border-radius: 8px; /* Opcional: redondea las esquinas de la foto */
-  max-width: 100%;
-  height: auto;
-}
+  .site-anamaria-gonzalez .foto img {
+    border-radius: 8px; /* Opcional: redondea las esquinas de la foto */
+    max-width: 100%;
+    height: auto;
+  }
 
-  .audio-player{
+  .audio-player {
     margin: 50px 10px 0 0;
   }
 
-  .site-anamaria-gonzalez .foto{
+  .site-anamaria-gonzalez .foto {
     margin: 20px;
   }
 
-  .about-half-colom-section-image .coment{
-   margin-left:10%;
+  .about-half-colom-section-image .coment {
+    margin-left: 10%;
   }
-  .about-half-colom-section-image .note-container p{
+
+  .about-half-colom-section-image .note-container p {
     margin-top: 20px;
   }
 
-  .note-container{
+  .note-container {
     width: 100%;
   }
-  
 }
+
 
 /* SOCIEDAD CARTAGENARA */
 .about-half-colom-section .sociedad-cartagenera{
@@ -517,11 +498,20 @@ margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
   .site-statistic {
     padding: 3.125rem 1.25rem;
   }
 }
 
+@media screen and (max-width:350px) {
+  body{
+    flex-direction: column;
+  }
+}
 .site-number {
   /* Number (class) */
 	float:left;
