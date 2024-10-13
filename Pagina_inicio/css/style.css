@@ -165,7 +165,7 @@ img {
   text-align: center;
   color: #00689D;
   font-size: 30px;
-  margin-left: 23%;
+  margin-left: 20%;
   width: 60%;
   font-weight: 500;
 }
@@ -945,8 +945,8 @@ img {
 	background:url(../gif/Comp-1.gif) no-repeat right top;
 	width: 500px;
 	height: 500px;
+  max-width: 100%;
 	text-align:right;
-  
 	position:relative;
 	right:150%;
 	left:0px;
@@ -961,100 +961,11 @@ img {
 	background-size: 00% 600%;
 }
 
-@media screen and (max-width: 1199px) {
-	.static-banner {
-		top:20%;
-	}
-	
- .static-banner-image {
-	 left:60;
- }
- 
- .banner-caption h1 {
-	 font-size:60px;
- }
- 
- .banner-caption h2{
-	 font-size:22px;
- }
- 
- .banner-caption p{
-	 line-height:1.7;
-	 white-space:inherit;
-	 font-weight:normal;
-	 padding-top:0px;
- }
- .static-content {
-	top:17%;
-}
-}
-
-@media screen and (max-width: 991px) {	
-.static-banner {
-	top:10%;
-}
-	
-.banner-caption {
-	top: 20%;
-  height: auto;
-}
-	
-.banner-caption h1 {
-	font-size:40px;
-	text-align:center;
-}
- 
-.banner-caption p{
-	line-height:1.7;
-	white-space:inherit;
-	font-weight:normal;
-	padding:0 px 0 0 0;
-	text-align:center;
-	margin-bottom:0;
-  width: 100%;
-  text-align: center;
-}
-
-
- .static-banner-image {
-	width:100%;
-	text-align:center;
-	background-size:300px;
-	background-position:center top;
-	margin:30px;
- }
- 
- .static-banner .banner-caption {
-	 text-align:center;
- }
- 
- .static-content {
-	top:10%;
-}
- 
-}
-
-@media screen and (max-width: 767px) {
-	
-	.static-banner {
-		top:15%;
-}
-	
-	.banner-caption h1 {
-	font-size:50px;
-	text-align:center;
-}
-
-.static-banner .slide-button {
-	margin:10px 0;
-}
-}
-
-/*RATEAR LAS VOCES*/
+/*RASTEAR LAS VOCES*/
 .about-half-colom-section {
 	float:left;
 	width: 100%;
-  height: 200px;
+  height: auto;
   margin: 150px 100px 0 100px;
 }
 
@@ -1121,30 +1032,6 @@ img {
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 991px) {
-  .about-half-colom-section {
-    margin: 20px 100px 0 100px;
-  }
-  .about-half-colom-section-image{
-    width: 400px;
-    right:-100px;
-  }
-
-  @media screen and (max-width: 750px) {
-    .about-half-colom-section {
-      margin: 20px 100px 0 100px;
-    }
-    .about-half-colom-section-image img{
-      width: 300px;
-      right:-120px;
-      margin-top: 100px;
-    }
-
-    .dots{
-      margin-left: 20%;
-    }
-}
-}
 
 .site-more-features .featured-img {
   /* featured image */
@@ -1382,8 +1269,7 @@ img {
   display:flex;
   justify-content:center;
   align-items:center;
-  height: 45vh;
-  margin: 10px 0 0 100px;
+  margin: 10px 0 0 80px;
   background-color:#Fff;
   position: relative;
   width: 80%;
@@ -1391,11 +1277,13 @@ img {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  height: auto;
 }
 .site-more-features .slider-container .slides{
   display: flex;
   animation: slide 12s infinite;
   transition: transform 0.5s ease-in-out;
+  height: auto;
 }
 
 .site-more-features .slider-container .slide{
@@ -1405,7 +1293,8 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 40px 0 40px;
+  padding: 0 30px 0 30px;
+  height: auto;
 }
 
 .site-more-features .slider-container .slide h2{
@@ -1449,12 +1338,6 @@ img {
 }
 
 
-@media screen and (max-width: 991px) {
-  .slider-container{
-   margin-left:10%;
-  }
-}
-
 /*Seccion del boton */
 .container-button{
   display: flex;
@@ -1462,9 +1345,9 @@ img {
   flex-direction: column;
     background-color: #F2F4F5;
     clear: both;
-    min-height: 100px;
+    min-height: 100%;
     position: relative;
-    height: 350px;/*propiedades para dejar responsiva la pagina*/
+    height:auto;/*propiedades para dejar responsiva la pagina*/
     max-width: 100%;
     margin: 0 auto;
 }
@@ -1490,6 +1373,7 @@ img {
   height: 50px;
   font-size: 23px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  margin-bottom: 10%;
   /*gap: 50px; Anade espacio entre el boton y el icono*/
 }
 
@@ -1756,5 +1640,174 @@ y-axis */
   background: #D3D3D3;
 }
 
-/*-----------------------------------------------------------------------------------
+/*---------------------------MEDIAS QUERYS PARA SITIO RESPONSIVE----------------------------*/
 
+@media only screen and (max-width:950px) {
+   body{
+    flex-direction: column; /* Estilos para dispositivos con un ancho de 600px o menos */
+  }
+
+  /*PROCESO DE SISTEMATIZACION*/
+
+  .static-content .banner-caption{
+    padding:130px 0 0 40px;
+  }
+
+  /* RASTEAR LAS VOCES*/
+  .section-grey{
+    height: auto;
+  }
+
+  .about-half-colom-section-image img{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-half-colom-section {
+    margin: 20px 100px 0 100px;
+  }
+  .about-half-colom-section-image{
+    margin-top:20%;
+    width: 400px;
+    right:-60px;
+    margin-bottom:20%;
+  }
+
+  .site-about-app p{
+    margin-bottom:20%;
+  }
+
+  .section-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+
+  .container-button .button{
+    margin-bottom:10%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+	.static-banner {
+		top:20%;
+	}
+	
+ .static-banner-image {
+	 left:60;
+ }
+ 
+ .banner-caption h1 {
+	 font-size:60px;
+ }
+ 
+ .banner-caption h2{
+	 font-size:22px;
+ }
+ 
+ .banner-caption p{
+	 line-height:1.7;
+	 white-space:inherit;
+	 font-weight:normal;
+	 padding-top:0px;
+   margin-left: 10%;
+ }
+ .static-content {
+	top:17%;
+}
+}
+
+@media screen and (max-width: 991px) {	
+.static-banner {
+	top:10%;
+}
+	
+.banner-caption {
+	top: 20%;
+  height: auto;
+}
+	
+.banner-caption h1 {
+	font-size:40px;
+	text-align:center;
+}
+ 
+.banner-caption p{
+	line-height:1.7;
+	white-space:inherit;
+	font-weight:normal;
+	padding:0 px 0 0 0;
+	text-align:center;
+	margin-bottom:0;
+  width: 100%;
+  text-align: center;
+}
+
+
+ .static-banner-image {
+	width:100%;
+	text-align:center;
+	background-size:300px;
+	background-position:center top;
+	margin:30px;
+ }
+ 
+ .static-banner .banner-caption {
+	 text-align:center;
+ }
+ 
+ .static-content {
+	top:10%;
+}
+
+.slide{
+ right: 300px;
+ 
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.static-banner {
+		top:15%;
+}
+	.banner-caption h1 {
+	font-size:45px;
+	text-align:center;
+}
+
+.static-banner .slide-button {
+	margin:10px 0;
+}
+.about-half-colom-section {
+  margin: 20px 100px 0 100px;
+}
+.about-half-colom-section-image img{
+  width: 300px;
+  margin-top:20%;
+  right: -230px;
+}
+
+.dots{
+  margin-left: 20%;
+}
+
+.site-more-features .slider-container .slide {
+ right: 1000px;
+}
+
+.container-button p{
+  width: auto;
+}
+ 
+.container-button .button{
+  margin-bottom: 10%;
+}
+.slider-container{
+ w
+}
+}

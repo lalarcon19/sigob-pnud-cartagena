@@ -1507,30 +1507,25 @@ Static Banner
 
 -----------------------------------------------------------------------------------*/
 .static-banner {
+  margin-left: 10%;
 	position:absolute;
 	top:25%;
 }
 
+/*TITULO DE EL IMPACTO*/
 .banner-caption {
   display: flex;
 	float:left;
-	width:100%;
-	position:relative;
+	width:200%;
 	left:25%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 40%;
+  margin-top: 100%
 }
 
-/*TITULO DE EL IMPACTO*/
 .banner-caption h1 {
 	  font-size: 60px;
-    font-weight: bold;
     color: #FFFFFF;
     text-transform: uppercase;
     font-family: 'proxima nova', sans-serif;
-    text-align: center;
     letter-spacing: 0;
     line-height: 1;
     padding: 0;
@@ -1543,8 +1538,7 @@ Static Banner
   border: 1px solid white;
   border-radius: 12.5em;
   color: white;
-  font-family:'proxima nova' sans-serif;
-  font-size: 0.8125em;
+  font-family:'Proxima nova' sans-serif;
   font-weight: 700;
   line-height: 3.75em;
   text-transform: uppercase;
@@ -1564,11 +1558,10 @@ Static Banner
 
 .static-banner-image {
   background: url('../gif/Comp-1_int_2.gif') no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 100%;
+  max-width:100%;
   height: 600px;
   position: relative;
+  left: 20%;
 }
 
 
@@ -1578,12 +1571,11 @@ Static Banner
 	}
 	
  .static-banner-image {
-  width:450px;
-	height:600px;
+  width:80%;
+	height:500px;
 	text-align:right;
 	position:relative;
 	right:0;
-	left:160px;
 	top:0;
  }
  
@@ -1863,7 +1855,7 @@ Static Banner
 /*SECCION INGRID PAOLA*/
 .half-colom-left-section video{
   height:250px;
-  width:70%;
+  width:50%;
   margin-top:15%;
   border:0.2px solid black;
 }
@@ -2242,6 +2234,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 .half-colom-right-section {
 	float:left;
 	width:100%;
+  margin-left: 10%;
 }
 
 .left-heading-icon {
