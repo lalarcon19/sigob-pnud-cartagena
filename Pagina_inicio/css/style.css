@@ -1784,7 +1784,7 @@ y-axis */
 	margin:10px 0;
 }
 .about-half-colom-section {
-  margin: 20px 100px 0 100px;
+  margin-left: 10%;
 }
 .about-half-colom-section-image img{
   width: 300px;
@@ -1801,7 +1801,8 @@ y-axis */
 }
 
 .container-button p{
-  width: auto;
+  width:90%;
+  font-size: 20px;
 }
  
 .container-button .button{
@@ -1824,8 +1825,14 @@ y-axis */
   }
 
   .site-about-app p{
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 0;
+    width:100%;
+  }
+
+  .section-blue h1{
+    margin:5%;
+    width: 90%;
   }
 
   .about-half-colom-section-image img{
@@ -1835,7 +1842,7 @@ y-axis */
   }
 
   .site-more-features .slider-container .slide p{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
   }
   .site-more-features .slider-container .slide h2{
