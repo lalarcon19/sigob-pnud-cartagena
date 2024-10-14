@@ -1231,7 +1231,7 @@ img {
 }
 
 .site-more-features p {
-  font-family: inherit;
+  font-family:'Proxima Nova'sans-serif;
   font-size: 14px;;
   font-weight: normal;
   line-height: 1.625rem;
@@ -1308,7 +1308,7 @@ img {
   margin-top: 30px;
   color:#59687C;
   text-align: center;
-
+  font-family: 'Proxima Nova'sans-serif;
 }
 
 .site-more-features .slider-container .slide p span{
@@ -1793,7 +1793,7 @@ y-axis */
 }
 
 .dots{
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 .site-more-features .slider-container .slide {
@@ -1805,9 +1805,60 @@ y-axis */
 }
  
 .container-button .button{
-  margin-bottom: 10%;
+  margin:10% 0 10% 5%;
+
 }
-.slider-container{
- w
 }
+@media only screen and (max-width: 1021px){
+  .banner-caption h1{
+    font-size:40px;
+  }
+
+  .banner-caption p{
+    width: 80%;
+    font-size: 25px;
+  }
+
+  .static-banner-image{
+    background-size: 400px;
+  }
+
+  .site-about-app p{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .about-half-colom-section-image img{
+    height:300px;
+    width: 800px;
+    margin-left:10%;
+  }
+
+  .site-more-features .slider-container .slide p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .site-more-features .slider-container .slide h2{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 802px){
+  .banner-caption p{
+    width: 100%;
+  }
+
+  .banner-caption{
+    height: auto;
+  }
+
+  .static-banner-image{
+    background-size: 300px;
+  }
+
+  .about-half-colom-section-image img{
+    margin: 0;
+    width: 250px;
+    height: 200px;
+  }
 }
