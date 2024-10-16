@@ -1561,7 +1561,6 @@ Static Banner
   width:100%;
   height: 600px;
   position: relative;
-  left: 20%;
 }
 
 
@@ -2219,11 +2218,6 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 	width:100%;
 }
 
-.half-colom-right-section {
-	float:left;
-	width:100%;
-  margin-left: 10%;
-}
 
 .left-heading-icon {
 	float:left;
@@ -2969,10 +2963,6 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   .dependencia{
     margin-top: 15%;
   }
-
-  .dependencia .two-colom-content p{
-   margin-left: 15%;
-  }
   .audio-player{
     margin-right: 12000px;
   }
@@ -2981,10 +2971,6 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
     margin: 0;
     height: auto;
   }
-   .two-colom-content p {
-    margin-top:0;
-    margin-left:10%;
-   }
 }
 
 
@@ -4921,12 +4907,22 @@ y-axis */
   body{
     flex-direction: column;
   }
+  .static-banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-caption{
+    width: auto;
+    margin-top: 50%;
+  }
   .static-banner-image {
-    margin-top:50%;
-    position:relative;
-    height:500px;
+    margin-top:70%;
+    left: 0;
    }
 
+  .static-banner-image{
+    background-size:1000px;
+  }
 
    .left-heading h1{
     text-align: left;
@@ -5008,6 +5004,9 @@ y-axis */
    .correspondencia h1{
     font-size:25px;
    }
+  .two-colom-content p {
+    margin-left: 10%;
+   }
    .resistencia .text{
     height: auto;
     display: flex;
@@ -5021,4 +5020,7 @@ y-axis */
     padding: 0;
    }
 
+   .half-colom-rigth-section .audio-player{
+    margin-left: 8000px;
+   }
 }
