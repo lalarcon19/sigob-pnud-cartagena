@@ -4933,3 +4933,13 @@ y-axis */
   opacity: 0;
   visibility: hidden;
 }
+
+/*---------------------------MEDIA QUERYS---------------------------------------------------*/
+@media  only screen and (max-width:667px) {
+  .banner-caption{
+    margin:20% 0 20% 0;
+  }
+  .static-banner-image {
+    width:100%;
+  }
+}
