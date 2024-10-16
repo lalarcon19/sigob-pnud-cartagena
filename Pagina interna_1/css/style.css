@@ -210,6 +210,7 @@ img {
   color:#232D3F;
 	text-align:left;
 	line-height:1.3;
+  font-family:'Proxima Nova'sans-serif;
 }
 
 
@@ -1673,7 +1674,7 @@ display: block;
 .static-banner-image {
 background:url(../images/header-slide-1.gif) no-repeat ;
 	width:470px;
-	height:550px;
+	height:650px;
 	text-align:center;
 	position:relative;
 	right:0;
@@ -2006,10 +2007,10 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 }
 
 .about-half-colom-section-image {
-	width:500px;
+	width:450px;
 	height:auto;
+  margin-top: 20%;
 	position:absolute;
-	top:0;
 }
 
 
