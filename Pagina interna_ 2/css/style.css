@@ -398,7 +398,7 @@ img {
 .left-heading h1 {
 	text-align:left;
 	line-height:1.3;
-  font-family: 'proxima nova' sans-serif;
+  font-family: 'Proxima Nova' sans-serif;
 }
 
 /*CUAL ES EL IMPACTO*/
@@ -798,7 +798,7 @@ box-shadow: 0px 0px 22px 6px rgba(24,30,110,0.03);
   margin: 0;
   padding: 0;
   display: block;
-  background: #122748;
+  background: #0a5984;
 }
 
 @media screen and (min-width: 992px) {
@@ -980,7 +980,7 @@ box-shadow: 0px 0px 22px 6px rgba(24,30,110,0.03);
   right: auto;
   margin: 0;
   padding: 0.625rem 1.875rem 1.25rem;
-  background: #203e51;
+  background: #0a5984;
   min-width: 200px;
   white-space: nowrap;
   opacity: 0;
@@ -1004,7 +1004,7 @@ box-shadow: 0px 0px 22px 6px rgba(24,30,110,0.03);
     position: relative;
     opacity: 1;
     visibility: visible;
-    background: #153464;
+    background: #0a5984;
     padding-top: 1.25rem;
     padding-left: 2.5rem;
     box-shadow: none;
@@ -1072,7 +1072,7 @@ box-shadow: 0px 0px 22px 6px rgba(24,30,110,0.03);
     font-size: 1.875rem;
     text-align: center;
     color: white;
-    background: #122748;
+    background: #0a5984;
     height: 3.125rem;
     width: 3.4375rem;
     line-height: 3.125rem;
@@ -1558,7 +1558,7 @@ Static Banner
 
 .static-banner-image {
   background: url('../gif/Comp-1_int_2.gif') no-repeat;
-  max-width:100%;
+  width:100%;
   height: 600px;
   position: relative;
   left: 20%;
@@ -1625,18 +1625,6 @@ Static Banner
 	text-align:center;
 	margin-bottom:0;
 }
-
- .static-banner-image {
-  margin-top:50%;
-  display: flex;
-	text-align:center;
-	position:relative;
-  width:700wh;
-  height: 300px;
-	right:0;
-	left:40px;
-	top:0;
- }
  
  .static-banner .banner-caption {
 	 text-align:center;
@@ -4901,7 +4889,7 @@ y-axis */
   width: 3.125rem;
   line-height: 3.125rem;
   text-align: center;
-  background: #142834;
+  background: #0a5984;
   border-radius: 12.5rem;
   font-size: 1.875rem;
   box-shadow: 0 0 0.9375rem rgba(2, 3, 3, 0.19);
@@ -4936,10 +4924,55 @@ y-axis */
 
 /*---------------------------MEDIA QUERYS---------------------------------------------------*/
 @media  only screen and (max-width:667px) {
-  .banner-caption{
-    margin:20% 0 20% 0;
+  body{
+    flex-direction: column;
   }
   .static-banner-image {
-    width:100%;
-  }
+    margin-top:50%;
+    position:relative;
+    height:500px;
+   }
+
+   .left-heading h1:after {
+    margin-left: 20%;
+   }
+
+   .left-heading h1{
+    text-align: left;
+    left: 20%;
+   }
+
+   .site-about-app p{
+    width: 100%;
+    text-align:left;
+    margin: 0;
+   }
+
+   .audio-player{
+    margin:5%;
+   }
+   .half-colom-right-section img{
+    width:300px;
+    height: auto;
+   }
+
+   .site-amazing-features .dialog{
+    text-align:center;
+    margin-left:20%;
+   }
+   .general-text{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+   }
+
+   iframe{
+    width: auto;
+    height: auto;
+   }
+
+
 }
