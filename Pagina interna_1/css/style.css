@@ -5169,7 +5169,7 @@ y-axis */
   flex-direction: column;
 }
 .two-colom-content p {
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Proxima Nova';
   display: flex;
   justify-content:center;
@@ -5253,8 +5253,17 @@ y-axis */
   margin-left: 20%;
 }
 .site-about-app p{
-  font-size:20px;
+  font-size:15px;
   font-family: 'Proxima Nova';
+}
+
+.container-center p{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ flex-direction: column;
+ width:80%;
+ margin: 0;
 }
 }
 
@@ -5337,5 +5346,11 @@ y-axis */
  .site-amazing-features p{
   width: auto;
   font-size: 15px;
+ }
+
+ .container-center p{
+  width:90%;
+  margin: 0;
+  text-align: center;
  }
 }
