@@ -2118,8 +2118,8 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 
 .half-colom-right-section {
 	float:left;
-	width:70%;
-  margin-left:10vh;
+	width:60%;
+  margin-left:20%;
 }
 
 .left-heading-icon {
@@ -2262,16 +2262,6 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
     margin-left: 0;
   }
  
-  .half-colom-right-section {
-    margin-left: 35%;
-    width:50%;
-  }
-
-  .container-center .icon{
-    width: 60%;
-    margin-left:0;
-  }
-
   .note-container h3{
     width:75%;
     margin-left:10%;
@@ -5208,6 +5198,13 @@ y-axis */
   }
 .static-banner {
 	top:10%;
+}
+.half-colom-right-section {
+    margin-left: 30%;
+  }
+
+.container-center .icon{
+    margin: 0 20% 0 0;
 }
 
 .banner-caption {
