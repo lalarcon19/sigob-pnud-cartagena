@@ -1879,17 +1879,24 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   }
 
   .half-colom-left-section{
-    margin-left: 20%;
+    margin-left: 30%;
   }
 
   .site-team .main-heading-text p {
     padding: 0;
-    margin: 0;
+    margin-left:20%;
+    padding: 0;
   }
   .audio-player{
     margin-left:10%;
   }
 
+  .site-amazing-features img{
+    margin-left: 20%;
+  }
+  .site-amazing-features .ciudad-inteligente p{
+    margin: 0;
+  }
 }
 
 
@@ -1981,9 +1988,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 	 padding:0;
  }
 
- .ciudad-inteligente .half-colom-right-section{
-  margin-left: 20%;
- }
+ 
  .text-heading{
   width: auto;
   align-items: center;
@@ -2002,6 +2007,10 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
  .text{
   justify-content: center;
   align-items: center;
+ }
+
+ .ciudad-inteligente .two-colom-content p {
+  margin: 0;
  }
 }
 
