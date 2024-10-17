@@ -16,6 +16,10 @@ body {
   font-family: 'Proxima Nova', sans-serif;
 }
 
+p{
+  line-height: 1.5;
+}
+
 * {
   outline: none !important;
 }

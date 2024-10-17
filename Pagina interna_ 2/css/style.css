@@ -11,6 +11,10 @@ html {
   width: 100%;
 }
 
+p{
+  line-height: 1.5;
+}
+
 body {
   font-size: 100%;
   margin: 0;
@@ -1803,7 +1807,7 @@ Static Banner
   line-height:1,5;
   width: 100%;
   font-size: 15px;
-  font-family: 'proxima nova' sans-serif;     
+  font-family: 'Proxima Nova' sans-serif;     
 }
 
 @media screen and (max-width: 767px) {
@@ -1959,6 +1963,7 @@ Static Banner
 .site-amazing-features .half-colom-right-section img{
  display: flex;
  align-items: center;
+ justify-content: center;
  margin: 0 !important;
 }
 
@@ -2132,8 +2137,8 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 	  width:80%;
   }
   
-  .site-about-app.section-grey {
-	  padding-bottom:0;
+  .site-about-app.section-grey .vista {
+    padding: 0;
   }
   
   
@@ -2210,8 +2215,9 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 }
 
 .two-colom-section {
-	padding:80px 0;
+	padding:80px 0 0 0 ;
 }
+
 
 .half-colom-left-section {
 	float:left;
@@ -2242,9 +2248,6 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
- .two-colom-section {
-	 padding:80px 0;
- }
  
  .half-colom-padding {
 	padding:0;

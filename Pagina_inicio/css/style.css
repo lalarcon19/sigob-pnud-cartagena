@@ -15,6 +15,9 @@ body {
   clear: both;
   font-family:'proxima nova', sans-serif;
 }
+p{
+  line-height: 1.5;
+}
 
 * {
   outline: none !important;
