@@ -1824,6 +1824,9 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   height: 50px;
   font-size: 23px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
 }
 
 
@@ -1859,7 +1862,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
 
 @media screen and (max-width: 767px) {
   .about-half-colom-section {
-	  margin-left: 20%;
+	  margin-left: 10%;
   }
   
   .about-half-colom-section-image {
@@ -1883,12 +1886,12 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   }
 
   .half-colom-left-section{
-    margin-left: 30%;
+    margin-left: 15%;
   }
 
   .site-team .main-heading-text p {
     padding: 0;
-    margin-left:20%;
+    margin-left:15%;
     padding: 0;
   }
   .audio-player{
@@ -1900,6 +1903,11 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   }
   .site-amazing-features .ciudad-inteligente p{
     margin: 0;
+  }
+  .accordian-main h1{
+    display: flex;
+    width: auto;
+    text-align: center;
   }
 }
 
@@ -2587,6 +2595,7 @@ box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   line-height: 5.25rem;
   transition: 300ms linear;
   transition-property: color;
+  
 }
 
 /*-----------------------------------------------------------------------------------

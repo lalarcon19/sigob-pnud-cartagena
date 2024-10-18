@@ -14,7 +14,6 @@ p{
   line-height: 1.5;
 }
 body {
-  font-size: 100%;
   margin: 0;
   padding: 0;
   display: block;
@@ -5265,6 +5264,9 @@ y-axis */
 .site-about-app p{
   font-size:15px;
   font-family: 'Proxima Nova';
+  display: flex;
+  text-align: justify;
+  width: 80%;
 }
 
 .container-center p{
@@ -5305,7 +5307,7 @@ y-axis */
  }
  .audio-player{
   width: auto;
-  margin: 0 30% 0 0;
+  margin: 0 15% 0 0;
  }
  .about-half-colom-section-image {
   margin:50px ;
@@ -5314,6 +5316,24 @@ y-axis */
   width: auto;
   margin: 0 0 0 25%;
   text-align:left;
+ }
+ .note-documental h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:5%;
+ }
+ .site-anamaria-gonzalez .about-half-colom-section-image{
+  margin:0 50px 20px;
+ }
+ .about-half-colom-section{
+  margin-left: 10%;
+ }
+
+ .about-half-colom-content p{
+  width:auto;
+  display: flex;
+  text-align:justify;
  }
 
   .note-container .nota-contextual p{
@@ -5333,6 +5353,9 @@ y-axis */
   font-size: 30px;
  }
 
+ .about-half-colom-section h1{
+  
+ }
  .container-center .image-documental{
   width: auto;
  }
