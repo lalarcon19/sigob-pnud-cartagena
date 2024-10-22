@@ -945,7 +945,7 @@ img {
   width:45vh;
 }
 .static-banner-image {
-	background:url(../gif/Comp-1.gif) no-repeat right top;
+	background:url(../gif/mapa.gif) no-repeat right top;
 	width: 500px;
 	height: 500px;
   max-width: 100%;
@@ -988,6 +988,7 @@ img {
 }
 
 .about-half-colom-section-image {
+	background:url(../gif/comp-1.gif) no-repeat right top;
   width:945px;
 	height:auto;
 	position:absolute;
