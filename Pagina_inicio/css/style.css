@@ -989,11 +989,14 @@ img {
 
 .about-half-colom-section-image {
 	background:url(../gif/Comp-1.gif) no-repeat right top;
-  width:945px;
-	height:auto;
-	position:absolute;
+	width: 500px;
+	height: 500px;
+  max-width: 100%;
+	text-align:right;
+	position:relative;
+	right:150%;
+	left:0px;
 	top:0;
-	right:-230px;
 }
 
 .about-half-colom-section-image {
